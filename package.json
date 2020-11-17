@@ -1,12 +1,13 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Read, Write and Delete your to-dos or other notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Sam Rodriguez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
